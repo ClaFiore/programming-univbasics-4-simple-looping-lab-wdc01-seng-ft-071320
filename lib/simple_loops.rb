@@ -21,8 +21,7 @@ end
 def return_string_array(array)
   i = 0
   while i < array.length do
-    puts array[i]
+    return array[i]
     i += 1
   end
-  return string.try_convert(array)
 end
