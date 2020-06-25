@@ -24,4 +24,5 @@ def return_string_array(array)
     new_array_strings = array[i].to_s
     i += 1
   end
+  return new_array_strings
 end
