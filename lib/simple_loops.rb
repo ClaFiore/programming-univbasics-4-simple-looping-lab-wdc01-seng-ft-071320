@@ -24,5 +24,5 @@ def return_string_array(array)
     puts array[i]
     i += 1
   end
-  return array
+  return array.to_s
 end
